@@ -1,26 +1,234 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 /* Universal Selector */
 *{
     margin: 0;
     box-sizing: border-box;
     list-style-type: none;
+  }
+  #container{
+   width: 900px;
+   margin: 20px auto;
+    
+  }  
+    
+
+/* header Section */
+#h2{
+  background-color: orange;
+  text-align: center;
+  font-family: Roboto;
+  text-transform: uppercase;
 }
-* Navigation Section */
+.header {
+  color: rgb(183, 0, 255);
+  background-color: orange;
+  position: fixed;
+  width: 900px;
+
+}
+.identity {
+  color: green;
+}
+#career {
+  color: rgb(114, 12, 82);
+}
+
+/* Navigation Section */
 #navSection{
-    padding: 10px;
-    text-align: right;
+  background-color: red;
+  position: fixed;
+  width: 900px;
 }
+/* #navSection{
+    padding: 10px;
+    text-align: right; */
+    /* background-color: pink;
+    position: fixed;
+    height: 40px;
+    margin: 4px; */
+    /* margin-bottom: 300px;
+    width: 900px; */
+  
 #navSection li{
     display: inline;
     margin-right: 40px;
 }
+/* position */
+#whatsapp{
+  position: fixed;
+  bottom: 20px;
+ right: 20px;
+ /* width: 100px;
+ height: 100px;
+ background-color: aqua; */
+ }
+    /*Main Section  */
+    #project{
+      font-family: "Roboto", sans-serif;
+            background-color: aqua;
+            color: red;
+            font-style: italic;
+            font-size: larger; 
+               font-family: Georgia, 'Times New Roman', Times, serif;
+               text-align: center;
+               text-decoration: underline;
+               text-transform: uppercase;
+               background-color: aquamarine;
+              margin-top: 20px;}
+             
+          
+    #Angular {
+      color: orange;
+      font-style: italic;
+      font-family: "Roboto", sans-serif;
+    }
+    #Lqanguage {
+      color: red;
+      font-family: "Poppins", sans-serif;
+    } 
+    #resume {
+      color: rgb(38, 0, 255);
+      font-weight: bolder;
+    }
+    .line {
+      color: rgb(25, 142, 140);
+
+    } 
+    #Line {
+      background-color: aqua;
+    } 
+     /* my technology Stack */
+     #techstack{
+      width: 50%;
+      margin: 5px auto;
+    }
+    #boyimage{
+      float: left;
+      height: 200PX;
+      width: 200px;
+             }
+  #lorem{
+      display: inline;
+      padding: 100px;
+  }
+  #table2{
+    clear: left;
+    text-align: center;
+    margin: 5px auto;
+  }
+/* font-size: 30px; */
+table, tr, th, td {
+  border: 2px solid rgb(216, 186, 131);
+  border-collapse: collapse;
+  text-align: center;
+
+  }
+  td,th{
+  padding: 10px;
+  }
+  #table1{
+    text-align: center;
+  }
+/* Project detals */
+.roles{
+  list-style:none;
+  padding-top: 10px;
+}
+.roles li::marker{
+  content: "✍️";
+  
+label, button{
+
+font-size: large;
+
+}
+#Listscelactor li{
+  list-style: none;
+}
+input[type="text"]{
     
+  border: 2px solid rgb(248, 181, 57);
+  
+  padding: 5px 5px ;
+  
+  border-radius: 8px;
+  
+  width: 250px;
+  
+  text-transform: capitalize;
+  
+  color: cadetblue;
+  
+  }
+ 
+  /* #boyimage{
+    float: left;
+           }
+#lorem{
+    display: inline;
+}
+#table2{
+  clear: left;
+} */
 
 
 
 
 
-#projectDesc::selection{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #projectDesc::selection{
 
     background-color: rgb(241, 177, 104);
     
@@ -47,27 +255,28 @@
     
     font-size: 2rem;  
     
-    }
-          #resume {
+    } */
+          /* #resume {
             color: rgb(38, 0, 255);
             font-weight: bolder;
           }
           .line {
             color: rgb(25, 142, 140);
     
-          }
-          .header {
+          } */
+          /* .header {
             color: rgb(183, 0, 255);
             background-color: orange;
           }
-    
-          .identity {
-            color: green;
-          }
-          #career {
+     */
+          
+         /* .identity {
+                color: green;
+              } */
+          /* #career {
             color: rgb(114, 12, 82);
-          }
-          #Angular {
+          } */
+          /* #Angular {
             color: orange;
             font-style: italic;
             font-family: "Roboto", sans-serif;
@@ -75,24 +284,24 @@
           #Lqanguage {
             color: red;
             font-family: "Poppins", sans-serif;
-          }
-          #Line {
+          } */
+          /* #Line {
             background-color: aqua;
-          }
-           table, tr, th, td {
+          } */
+           /* table, tr, th, td {
     border: 2px solid rgb(216, 186, 131);
     border-collapse: collapse;
     }
     td,th{
     padding: 10px;
-    }
-    #summary{ 
+    } */
+    /* #summary{ 
               background-color: aqua;
                font-size: larger; 
                /*font-family: Georgia, 'Times New Roman', Times, serif;*/
                text-align: center;
                text-decoration: underline;
-               text-transform: uppercase;
+               text-transform: uppercase; */
                /*padding: 30px;
     
                 width: 200px;
@@ -100,7 +309,7 @@
               box-sizing: content-box*/
               
             }
-    #project{
+    /* #project{
         font-family: "Roboto", sans-serif;
               background-color: aqua;
               color: red;
@@ -116,28 +325,28 @@
                   width: 200px;
       
                   box-sizing: border-box;*/
-            }
-          #techstack{
+            } */
+          /* #techstack{
             width: 50%;
           }
-    font-size: 30px;
-    #Listscelactor li{
+    font-size: 30px; */
+    /* #Listscelactor li{
       list-style: none;
-    }
-    .roles{
+    } */
+    /* .roles{
       list-style:none;
       padding-top: 10px;
-    }
-    .roles li::marker{
+    } */
+    /* .roles li::marker{
       content: "✍️";
       
     label, button{
     
     font-size: large;
     
-    }
+    } */
     
-    input[type="text"]{
+    /* input[type="text"]{
     
     border: 2px solid rgb(248, 181, 57);
     
@@ -151,5 +360,5 @@
     
     color: cadetblue;
     
-    }
-    /* Navigation Section */
+    } */
+   
